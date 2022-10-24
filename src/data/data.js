@@ -1,0 +1,588 @@
+import {
+  MdOutlineApartment,
+  MdHouseSiding,
+  MdOutlineWater,
+  MdCabin,
+} from "react-icons/md";
+import { BsSnow } from "react-icons/bs";
+import { BiHomeAlt } from "react-icons/bi";
+import {
+  GiKidSlide,
+  GiSpaceNeedle,
+  GiCampingTent,
+  GiLightningDome,
+  GiEvilTree,
+  GiWaveSurfer,
+  GiMountainCave,
+  GiCaveEntrance,
+  GiGolfFlag,
+} from "react-icons/gi";
+import { AiOutlineCoffee } from "react-icons/ai";
+import { FaCampground, FaUmbrellaBeach, FaSwimmingPool } from "react-icons/fa";
+import { RiEarthquakeFill } from "react-icons/ri";
+
+export const locationsTab = [
+  { id: 1, label: "Design", icon: <MdOutlineApartment size={24} /> },
+  { id: 2, label: "Arctic", icon: <BsSnow size={24} /> },
+  { id: 3, label: "Shared Homes", icon: <MdHouseSiding size={24} /> },
+  { id: 4, label: "LakeFront", icon: <MdOutlineWater size={24} /> },
+  { id: 5, label: "National Parks", icon: <GiKidSlide size={24} /> },
+  { id: 6, label: "Bed & Breakfast ", icon: <AiOutlineCoffee size={24} /> },
+  { id: 7, label: "OMG!", icon: <GiSpaceNeedle size={24} /> },
+  { id: 8, label: "Camping", icon: <FaCampground size={24} /> },
+  { id: 9, label: "A-frames", icon: <GiCampingTent size={24} /> },
+  { id: 10, label: "Domes", icon: <GiLightningDome size={24} /> },
+  { id: 11, label: "Tiny Homes", icon: <BiHomeAlt size={24} /> },
+  { id: 12, label: "Treehouses", icon: <GiEvilTree size={24} /> },
+  { id: 13, label: "Surfing", icon: <GiWaveSurfer size={24} /> },
+  { id: 14, label: "CountrySide", icon: <GiMountainCave size={24} /> },
+  { id: 15, label: "Caves", icon: <GiCaveEntrance size={24} /> },
+  { id: 16, label: "Golfing", icon: <GiGolfFlag size={24} /> },
+  { id: 17, label: "Cabins", icon: <MdCabin size={24} /> },
+  { id: 18, label: "Earth Homes", icon: <RiEarthquakeFill size={24} /> },
+  { id: 19, label: "Tropical", icon: <FaUmbrellaBeach size={24} /> },
+  { id: 20, label: "Amazing Pools", icon: <FaSwimmingPool size={24} /> },
+];
+
+export const locations = [
+  {
+    id: 1,
+    locationImages: [
+      {
+        id: 1,
+        url: "https://a0.muscache.com/im/pictures/0cf8c4ae-16e8-4fdf-b640-9f4bac1c1137.jpg?im_w=720",
+      },
+      {
+        id: 2,
+        url: "https://images.unsplash.com/photo-1653408400816-af6dba0c9432?auto=format&fit=crop&w=400&h=250&q=60",
+      },
+      {
+        id: 3,
+        url: "https://images.unsplash.com/photo-1653312727964-736f11663ef6?auto=format&fit=crop&w=400&h=250&q=80",
+      },
+      {
+        id: 4,
+        url: "https://images.unsplash.com/photo-1629447236132-22c57cd0f0bf?auto=format&fit=crop&w=400&h=250&q=60",
+      },
+    ],
+    location: "Lagos, Nigeria",
+    host: "Daniel",
+    days: "Oct 2-9",
+    price: "$14",
+    isNew: true,
+    rating: 4.5,
+  },
+  {
+    id: 2,
+    locationImages: [
+      {
+        id: 1,
+        url: "https://a0.muscache.com/im/pictures/miso/Hosting-54392491/original/6df26ee7-7774-4907-9cdb-1c576626017b.jpeg?im_w=720",
+      },
+      {
+        id: 2,
+        url: "https://images.unsplash.com/photo-1447752875215-b2761acb3c5d?auto=format&fit=crop&w=400&h=250&q=60",
+      },
+      {
+        id: 3,
+        url: "https://images.unsplash.com/photo-1433086966358-54859d0ed716?auto=format&fit=crop&w=400&h=250&q=80",
+      },
+      {
+        id: 4,
+        url: "https://images.unsplash.com/photo-1501854140801-50d01698950b?auto=format&fit=crop&w=400&h=250&q=60",
+      },
+    ],
+    location: "Lagos, Nigeria",
+    host: "John",
+    days: "Sep 2-11",
+    price: "$30",
+    isNew: false,
+    rating: 4.99,
+  },
+  {
+    id: 3,
+    locationImages: [
+      {
+        id: 1,
+        url: "https://a0.muscache.com/im/pictures/c34d8f45-9220-4e81-afc9-1c1ba877211c.jpg?im_w=720",
+      },
+      {
+        id: 2,
+        url: "https://images.unsplash.com/photo-1586348943529-beaae6c28db9?auto=format&fit=crop&w=400&h=250&q=60",
+      },
+      {
+        id: 3,
+        url: "https://images.unsplash.com/photo-1465146344425-f00d5f5c8f07?auto=format&fit=crop&w=400&h=250&q=80",
+      },
+      {
+        id: 4,
+        url: "https://images.unsplash.com/photo-1472214103451-9374bd1c798e?auto=format&fit=crop&w=400&h=250&q=60",
+      },
+    ],
+    location: "Lekki, Nigeria",
+    host: "Stephn",
+    days: "Nov 19-22",
+    price: "$112",
+    isNew: true,
+    rating: 4.6,
+  },
+  {
+    id: 4,
+    locationImages: [
+      {
+        id: 1,
+        url: "https://a0.muscache.com/im/pictures/5737c207-123c-441c-9b41-ab99eb492e5f.jpg?im_w=720",
+      },
+      {
+        id: 2,
+        url: "https://images.unsplash.com/photo-1475113548554-5a36f1f523d6?auto=format&fit=crop&w=400&h=250&q=60",
+      },
+      {
+        id: 3,
+        url: "https://images.unsplash.com/photo-1470252649378-9c29740c9fa8?auto=format&fit=crop&w=400&h=250&q=80",
+      },
+      {
+        id: 4,
+        url: "https://images.unsplash.com/photo-1505144808419-1957a94ca61e?auto=format&fit=crop&w=400&h=250&q=60",
+      },
+    ],
+    location: "Lagos, Nigeria",
+    host: "Jane",
+    days: "Sep 13-18",
+    price: "$208",
+    isNew: false,
+    rating: 4.2,
+  },
+  {
+    id: 5,
+    locationImages: [
+      {
+        id: 1,
+        url: "https://a0.muscache.com/im/pictures/d8361943-c93f-43b7-8a99-15296f54e33e.jpg?im_w=720",
+      },
+      {
+        id: 2,
+        url: "https://images.unsplash.com/photo-1604537529428-15bcbeecfe4d?auto=format&fit=crop&w=400&h=250&q=60",
+      },
+      {
+        id: 3,
+        url: "https://images.unsplash.com/photo-1587502537104-aac10f5fb6f7?auto=format&fit=crop&w=400&h=250&q=80",
+      },
+      {
+        id: 4,
+        url: "https://images.unsplash.com/photo-1587502537815-0c8b5c9ba39a?auto=format&fit=crop&w=400&h=250&q=60",
+      },
+    ],
+    location: "Lagos, Nigeria",
+    host: "Bella",
+    days: "Aug 1-6",
+    price: "$24",
+    isNew: true,
+    rating: 4.1,
+  },
+  {
+    id: 6,
+    locationImages: [
+      {
+        id: 1,
+        url: "https://a0.muscache.com/im/pictures/miso/Hosting-53626803/original/8690b32c-b495-4c9d-b0ec-8a27bee4f9c4.jpeg?im_w=720",
+      },
+      {
+        id: 2,
+        url: "https://images.unsplash.com/photo-1470770903676-69b98201ea1c?auto=format&fit=crop&w=400&h=250&q=60",
+      },
+      {
+        id: 3,
+        url: "https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?auto=format&fit=crop&w=400&h=250&q=80",
+      },
+      {
+        id: 4,
+        url: "https://images.unsplash.com/photo-1503614472-8c93d56e92ce?auto=format&fit=crop&w=400&h=250&q=60",
+      },
+    ],
+    location: "Lekki, Nigeria",
+    host: "Austin",
+    days: "Oct 9-15",
+    price: "$69",
+    isNew: false,
+    rating: 4.6,
+  },
+  {
+    id: 7,
+    locationImages: [
+      {
+        id: 1,
+        url: "https://a0.muscache.com/im/pictures/48953786-650e-42e9-b157-637c94f4ce74.jpg?im_w=720",
+      },
+      {
+        id: 2,
+        url: "https://images.unsplash.com/photo-1499002238440-d264edd596ec?auto=format&fit=crop&w=400&h=250&q=60",
+      },
+      {
+        id: 3,
+        url: "https://images.unsplash.com/photo-1490750967868-88aa4486c946?auto=format&fit=crop&w=400&h=250&q=80",
+      },
+      {
+        id: 4,
+        url: "https://images.unsplash.com/photo-1462216589242-9e3e00a47a48?auto=format&fit=crop&w=400&h=250&q=60",
+      },
+    ],
+    location: "Lagos, Nigeria",
+    host: "Joy",
+    days: "June 7-12",
+    price: "$46",
+    isNew: true,
+    rating: 4.7,
+  },
+  {
+    id: 8,
+    locationImages: [
+      {
+        id: 1,
+        url: "https://a0.muscache.com/im/pictures/29f9f479-443d-43c2-a4c6-8a866fda5cff.jpg?im_w=720",
+      },
+      {
+        id: 2,
+        url: "https://images.unsplash.com/photo-1516205651411-aef33a44f7c2?auto=format&fit=crop&w=400&h=250&q=60",
+      },
+      {
+        id: 3,
+        url: "https://images.unsplash.com/photo-1496256654245-8f3d0ef3bebe?auto=format&fit=crop&w=400&h=250&q=80",
+      },
+      {
+        id: 4,
+        url: "https://images.unsplash.com/photo-1504392022767-a8fc0771f239?auto=format&fit=crop&w=400&h=250&q=60",
+      },
+    ],
+    location: "Lekki, Nigeria",
+    host: "Anna",
+    days: "Jun 11-16",
+    price: "$176",
+    isNew: false,
+    rating: 4.8,
+  },
+  {
+    id: 9,
+    locationImages: [
+      {
+        id: 1,
+        url: "https://a0.muscache.com/im/pictures/897635b8-0762-4c57-ad13-c244b138c933.jpg?im_w=720",
+      },
+      {
+        id: 2,
+        url: "https://images.unsplash.com/photo-1600240644455-3edc55c375fe?auto=format&fit=crop&w=400&h=250&q=60",
+      },
+      {
+        id: 3,
+        url: "https://images.unsplash.com/reserve/bOvf94dPRxWu0u3QsPjF_tree.jpg?auto=format&fit=crop&w=400&h=250&q=80",
+      },
+      {
+        id: 4,
+        url: "https://images.unsplash.com/photo-1486912500284-6f2462ba07ea?auto=format&fit=crop&w=400&h=250&q=60",
+      },
+    ],
+    location: "Lagos, Nigeria",
+    host: "Jude",
+    days: "Jul 1-6",
+    price: "$91",
+    isNew: true,
+    rating: 4.3,
+  },
+  {
+    id: 10,
+    locationImages: [
+      {
+        id: 1,
+        url: "https://a0.muscache.com/im/pictures/b41b36b1-2d45-4ae3-9100-0b84d64139b1.jpg?im_w=720",
+      },
+      {
+        id: 2,
+        url: "https://images.unsplash.com/photo-1444464666168-49d633b86797?auto=format&fit=crop&w=400&h=250&q=60",
+      },
+      {
+        id: 3,
+        url: "https://images.unsplash.com/photo-1526137844794-45f1041f397a?auto=format&fit=crop&w=400&h=250&q=80",
+      },
+      {
+        id: 4,
+        url: "https://images.unsplash.com/photo-1476209446441-5ad72f223207?auto=format&fit=crop&w=400&h=250&q=60",
+      },
+    ],
+    location: "Ikeja, Nigeria",
+    host: "Chuks",
+    days: "Jun 12-18",
+    price: "$62",
+    isNew: false,
+    rating: 4.6,
+  },
+  {
+    id: 11,
+    locationImages: [
+      {
+        id: 1,
+        url: "https://a0.muscache.com/im/pictures/6010c570-7a2c-4500-ab65-b88d70005409.jpg?im_w=720",
+      },
+      {
+        id: 2,
+        url: "https://images.unsplash.com/photo-1531756716853-09a60d38d820?auto=format&fit=crop&w=400&h=250&q=60",
+      },
+      {
+        id: 3,
+        url: "https://images.unsplash.com/photo-1511497584788-876760111969?auto=format&fit=crop&w=400&h=250&q=80",
+      },
+      {
+        id: 4,
+        url: "https://images.unsplash.com/photo-1542273917363-3b1817f69a2d?auto=format&fit=crop&w=400&h=250&q=60",
+      },
+    ],
+    location: "Lekki, Nigeria",
+    host: "Johnson",
+    days: "Nov 2-7",
+    price: "$25",
+    isNew: false,
+    rating: 4.1,
+  },
+  {
+    id: 12,
+    locationImages: [
+      {
+        id: 1,
+        url: "https://a0.muscache.com/im/pictures/0f41e893-7328-422c-b7f9-e51fc7e60385.jpg?im_w=720",
+      },
+      {
+        id: 2,
+        url: "https://images.unsplash.com/photo-1477511801984-4ad318ed9846?auto=format&fit=crop&w=400&h=250&q=60",
+      },
+      {
+        id: 3,
+        url: "https://images.unsplash.com/photo-1564574662330-73fb2940ff5d?auto=format&fit=crop&w=400&h=250&q=80",
+      },
+      {
+        id: 4,
+        url: "https://images.unsplash.com/photo-1564415637254-92c66292cd64?auto=format&fit=crop&w=400&h=250&q=60",
+      },
+    ],
+    location: "Lagos, Nigeria",
+    host: "Aishat",
+    days: "Jun 3-4",
+    price: "$44",
+    isNew: false,
+    rating: 4.2,
+  },
+  {
+    id: 13,
+    locationImages: [
+      {
+        id: 1,
+        url: "https://a0.muscache.com/im/pictures/baa03d2c-35b3-4239-924f-3e4a8af1851f.jpg?im_w=720",
+      },
+      {
+        id: 2,
+        url: "https://images.unsplash.com/photo-1517639493569-5666a7b2f494?auto=format&fit=crop&w=400&h=250&q=60",
+      },
+      {
+        id: 3,
+        url: "https://images.unsplash.com/photo-1605708896118-957f660c1555?auto=format&fit=crop&w=400&h=250&q=80",
+      },
+      {
+        id: 4,
+        url: "https://images.unsplash.com/photo-1497449493050-aad1e7cad165?auto=format&fit=crop&w=400&h=250&q=60",
+      },
+    ],
+    location: "Lagos, Nigeria",
+    host: "Ebele",
+    days: "Sep 22-25",
+    price: "$35",
+    isNew: true,
+    rating: 4.5,
+  },
+  {
+    id: 14,
+    locationImages: [
+      {
+        id: 1,
+        url: "https://a0.muscache.com/im/pictures/miso/Hosting-637394718682457659/original/a7e82a6f-4eab-4aa0-bb81-350a32355f66.jpeg",
+      },
+      {
+        id: 2,
+        url: "https://images.unsplash.com/photo-1494548162494-384bba4ab999?auto=format&fit=crop&w=400&h=250&q=60",
+      },
+      {
+        id: 3,
+        url: "https://images.unsplash.com/photo-1445262102387-5fbb30a5e59d?auto=format&fit=crop&w=400&h=250&q=80",
+      },
+      {
+        id: 4,
+        url: "https://images.unsplash.com/photo-1533387520709-752d83de3630?auto=format&fit=crop&w=400&h=250&q=60",
+      },
+    ],
+    location: "Ikeja, Nigeria",
+    host: "Mariam",
+    days: "Nov 4-10",
+    price: "$77",
+    isNew: true,
+    rating: 4.8,
+  },
+  {
+    id: 15,
+    locationImages: [
+      {
+        id: 1,
+        url: "https://a0.muscache.com/im/pictures/c138f25c-a63b-4a2a-bb45-014707dfb761.jpg?im_w=720",
+      },
+      {
+        id: 2,
+        url: "https://images.unsplash.com/photo-1500534314209-a25ddb2bd429?auto=format&fit=crop&w=400&h=250&q=60",
+      },
+      {
+        id: 3,
+        url: "https://images.unsplash.com/photo-1544892504-5a42d285ab6f?auto=format&fit=crop&w=400&h=250&q=80",
+      },
+      {
+        id: 4,
+        url: "https://images.unsplash.com/photo-1540979388789-6cee28a1cdc9?auto=format&fit=crop&w=400&h=250&q=60",
+      },
+    ],
+    location: "Lagos, Nigeria",
+    host: "Dumebi",
+    days: "Sep 25-Oct 2",
+    price: "$29",
+    isNew: true,
+    rating: 4.88,
+  },
+  {
+    id: 16,
+    locationImages: [
+      {
+        id: 1,
+        url: "https://a0.muscache.com/im/pictures/f5a66989-851b-41a7-8a86-47d37d551cf0.jpg?im_w=720",
+      },
+      {
+        id: 2,
+        url: "https://images.unsplash.com/photo-1502472584811-0a2f2feb8968?auto=format&fit=crop&w=400&h=250&q=60",
+      },
+      {
+        id: 3,
+        url: "https://images.unsplash.com/photo-1535463731090-e34f4b5098c5?auto=format&fit=crop&w=400&h=250&q=80",
+      },
+      {
+        id: 4,
+        url: "https://images.unsplash.com/photo-1495571758719-6ec1e876d6ae?auto=format&fit=crop&w=400&h=250&q=60",
+      },
+    ],
+    location: "Lagos, Nigeria",
+    host: "Chika",
+    days: "Oct 4-9",
+    price: "$50",
+    isNew: false,
+    rating: 4.2,
+  },
+  {
+    id: 17,
+    locationImages: [
+      {
+        id: 1,
+        url: "https://a0.muscache.com/im/pictures/6e2923e8-60e1-459e-9bbd-1a37d2464326.jpg?im_w=720",
+      },
+      {
+        id: 2,
+        url: "https://images.unsplash.com/photo-1446034295857-c39f8844fad4?auto=format&fit=crop&w=400&h=250&q=60",
+      },
+      {
+        id: 3,
+        url: "https://images.unsplash.com/photo-1504803900752-c2051699d0e8?auto=format&fit=crop&w=400&h=250&q=80",
+      },
+      {
+        id: 4,
+        url: "https://images.unsplash.com/photo-1528184039930-bd03972bd974?auto=format&fit=crop&w=400&h=250&q=60",
+      },
+    ],
+    location: "Lekki, Nigeria",
+    host: "Emeka",
+    days: "Jun 2-9",
+    price: "$336",
+    isNew: false,
+    rating: 4.1,
+  },
+  {
+    id: 18,
+    locationImages: [
+      {
+        id: 1,
+        url: "https://a0.muscache.com/im/pictures/miso/Hosting-622546558689586782/original/56b926d4-09fb-444a-bf3c-4f63731252fc.jpeg?im_w=720",
+      },
+      {
+        id: 2,
+        url: "https://images.unsplash.com/photo-1519821172144-4f87d85de2a1?auto=format&fit=crop&w=400&h=250&q=60",
+      },
+      {
+        id: 3,
+        url: "https://images.unsplash.com/photo-1508739773434-c26b3d09e071?auto=format&fit=crop&w=400&h=250&q=80",
+      },
+      {
+        id: 4,
+        url: "https://images.unsplash.com/photo-1562095241-8c6714fd4178?auto=format&fit=crop&w=400&h=250&q=60",
+      },
+    ],
+    location: "Lagos, Nigeria",
+    host: "Femi",
+    days: "Oct 28-Nov 4",
+    price: "$25",
+    isNew: true,
+    rating: 4.5,
+  },
+  {
+    id: 19,
+    locationImages: [
+      {
+        id: 1,
+        url: "https://a0.muscache.com/im/pictures/da38e6f6-8baf-4960-95da-f60858b15700.jpg?im_w=720",
+      },
+      {
+        id: 2,
+        url: "https://images.unsplash.com/photo-1510525009512-ad7fc13eefab?auto=format&fit=crop&w=400&h=250&q=60",
+      },
+      {
+        id: 3,
+        url: "https://images.unsplash.com/photo-1485067801970-70573e3f77d0?auto=format&fit=crop&w=400&h=250&q=80",
+      },
+      {
+        id: 4,
+        url: "https://images.unsplash.com/photo-1519378058457-4c29a0a2efac?auto=format&fit=crop&w=400&h=250&q=60",
+      },
+    ],
+    location: "Lagos, Nigeria",
+    host: "Bolu",
+    days: "Jun 11-16",
+    price: "$32",
+    isNew: true,
+    rating: 4.7,
+  },
+  {
+    id: 20,
+    locationImages: [
+      {
+        id: 1,
+        url: "https://a0.muscache.com/im/pictures/15242fb8-a0df-42fa-a366-acf13ea3ee9a.jpg?im_w=720",
+      },
+      {
+        id: 2,
+        url: "https://images.unsplash.com/photo-1524338198850-8a2ff63aaceb?auto=format&fit=crop&w=400&h=250&q=60",
+      },
+      {
+        id: 3,
+        url: "https://images.unsplash.com/photo-1494280986787-c49b328829dd?auto=format&fit=crop&w=400&h=250&q=80",
+      },
+      {
+        id: 4,
+        url: "https://images.unsplash.com/photo-1523712999610-f77fbcfc3843?auto=format&fit=crop&w=400&h=250&q=60",
+      },
+    ],
+    location: "Ikeja, Nigeria",
+    host: "Sherif",
+    days: "Oct 2-9",
+    price: "$149",
+    isNew: false,
+    rating: 4.5,
+  },
+];
